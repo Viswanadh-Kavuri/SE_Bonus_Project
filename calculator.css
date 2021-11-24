@@ -21,7 +21,7 @@
 	border: none;
 	border-radius: 10px;
 }
-input[type=button],button{
+input[type=button]{
 	height: 75px;
 	width: 75px;
 	border: none;
@@ -29,4 +29,12 @@ input[type=button],button{
 	background-color: #58595b;
 	border-radius: 10px;
 }
-
+button
+{
+	height: 75px;
+	width: 75px;
+	border: none;
+	color: #fff;
+	background-color: #58595b;
+	border-radius: 10px;	
+}
