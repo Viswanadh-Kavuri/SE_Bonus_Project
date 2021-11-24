@@ -1,5 +1,4 @@
 function insert(numberSelected){
-	console.log("number is "+numberSelected);
 	$(".calculatorDisplay").val($(".calculatorDisplay").val()+numberSelected);
 
 }
@@ -105,8 +104,6 @@ else
 
 function invert() 
 {
-   // var va=$(".calculatorDisplay").val();
-   // var posNum = (eval(va) < 0) ? va * -1 : va;
 
   $(".calculatorDisplay").val($(".calculatorDisplay").val()*-1);
   
@@ -130,7 +127,6 @@ function equalSymbol()
 let es=$(".calculatorDisplay").val();
 
 let res2 = (new Function('return '+es)())
-console.log("length of res2 is  "+res2.toString().length)
 
 if(!res2.toString().includes('.'))
 {
@@ -233,11 +229,9 @@ function f()
 
 
 let num=eval($(".calculatorDisplay").val());
-console.log(num);
 
  let fact=num;
 
-console.log(fact);
 
   if(num==0 || num==1)
   {
@@ -257,7 +251,6 @@ $(".calculatorDisplay").val('1');
 
       if(num==1)
       {
-         console.log(fact)
           $(".calculatorDisplay").val(fact);
       }
    }
