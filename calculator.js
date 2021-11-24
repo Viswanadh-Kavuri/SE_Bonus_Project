@@ -233,7 +233,7 @@ let num=eval($(".calculatorDisplay").val());
  let fact=num;
 
 
-  if(num==0 || num==1)
+  if(num.toString() == '0' || num.toString() == '1')
   {
 
 $(".calculatorDisplay").val('1');
